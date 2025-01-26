@@ -42,7 +42,7 @@ The Telegram Scam Detection Bot is a powerful Python-based tool designed to moni
 ### Step 1: Download or Clone the Repository
 Download or clone this repository to your local machine:
 ```bash
-https://github.com/yourusername/telegram-scam-detection-bot.git
+https://github.com/mukesh-nxtgen/TELEGRAM-TRADING-SCAM-DETECTION-BOT.git
 ```
 
 ### Step 2: Navigate to the Project Directory
@@ -148,8 +148,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any issues or questions, contact:
-- **Email**: your_email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: mukeshkumar.cse24@gmail.com
+- **GitHub**: [MUKESHKUMAR M](https://github.com/mukesh-dev-git)
 
 ---
 
