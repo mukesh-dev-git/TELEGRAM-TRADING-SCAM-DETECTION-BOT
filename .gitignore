@@ -1,0 +1,20 @@
+# .gitignore
+
+# Python Files
+__pycache__/
+*.py[cod]
+
+# Config Files
+config.json
+*.env
+
+# Logs
+logs/
+*.log
+
+# CSV Data
+*.csv
+
+# Virtual Environment
+venv/
+.env/
