@@ -36,7 +36,21 @@ SCAM_KEYWORDS = [
 
 PHISHING_API = "https://api.phishtank.com/check-url" 
 WALLET_VERIFICATION_API = "https://api.scamwallet.com/check"  
-TELEGRAM_REPORT_API = "https://api.telegram.org/bot7619793800:AAGNDnQ9uN_j-q4fjIiiK2lQILkUPZ5tVDo/sendMessage" 
+
+import json
+
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
+
+BOT_TOKEN = config.get("TELEGRAM_BOT_TOKEN")
+
+if not BOT_TOKEN:
+    raise ValueError("Bot token not found in config.json. Please ensure it exists.")
+
+TELEGRAM_REPORT_API = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+
+if __name__ == "__main__":
+    print(f"API URL: {TELEGRAM_REPORT_API}")
 
 
 def extract_text_from_image(image_data):
